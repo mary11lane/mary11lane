@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 50 43.75"
+   version="1.1"
+   id="svg928"
+   sodipodi:docname="mongoose.svg"
+   width="50"
+   height="43.75"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs932" />
+  <sodipodi:namedview
+     id="namedview930"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.5898438"
+     inkscape:cx="25.474201"
+     inkscape:cy="22.329238"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg928" />
+  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+  <path
+     d="M 46.875,25 H 3.125 C 1.4043,25 0,26.4043 0,28.125 v 12.5 c 0,1.7207 1.4043,3.125 3.125,3.125 h 43.75 C 48.5957,43.75 50,42.3457 50,40.625 v -12.5 C 50,26.40625 48.59375,25 46.875,25 Z m -12.5,11.71875 c -1.29395,0 -2.34375,-1.0498 -2.34375,-2.34375 0,-1.29395 1.0498,-2.34375 2.34375,-2.34375 1.29395,0 2.34375,1.0498 2.34375,2.34375 0,1.29395 -1.04492,2.34375 -2.34375,2.34375 z m 6.25,0 c -1.29395,0 -2.34375,-1.0498 -2.34375,-2.34375 0,-1.29395 1.0498,-2.34375 2.34375,-2.34375 1.29395,0 2.34375,1.0498 2.34375,2.34375 0,1.29395 -1.04492,2.34375 -2.34375,2.34375 z M 46.875,0 H 3.125 C 1.4043,0 0,1.4043 0,3.125 v 12.5 c 0,1.7207 1.4043,3.125 3.125,3.125 h 43.75 C 48.5957,18.75 50,17.3457 50,15.625 V 3.125 C 50,1.4043 48.59375,0 46.875,0 Z m -12.5,11.71875 c -1.29395,0 -2.34375,-1.0498 -2.34375,-2.34375 0,-1.29395 1.05469,-2.34375 2.34375,-2.34375 1.28906,0 2.34375,1.05469 2.34375,2.34375 0,1.28906 -1.04492,2.34375 -2.34375,2.34375 z m 6.25,0 c -1.29395,0 -2.34375,-1.0498 -2.34375,-2.34375 0,-1.29395 1.05469,-2.34375 2.34375,-2.34375 1.28906,0 2.34375,1.05469 2.34375,2.34375 0,1.28906 -1.04492,2.34375 -2.34375,2.34375 z"
+     id="path926"
+     style="fill:#ffffff;stroke-width:0.0976562" />
+</svg>

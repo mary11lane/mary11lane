@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 50 58.333336"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="html.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:export-filename="html.svg"
+   inkscape:export-xdpi="25"
+   inkscape:export-ydpi="25"
+   width="50"
+   height="58.333336"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.5898438"
+     inkscape:cx="-19.813268"
+     inkscape:cy="-19.813268"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+  <path
+     d="M 0,0 4.54427,51.536457 24.934895,58.333337 45.45573,51.536457 50,0 Z M 40.13021,16.653646 H 16.197916 l 0.533854,6.432291 h 22.86458 l -1.77083,19.32292 -12.747396,3.51562 v 0.0391 h -0.143229 l -12.851562,-3.55469 -0.78125,-9.86979 h 6.210937 l 0.455729,4.96093 6.966146,1.88802 6.992185,-1.88802 0.78125,-8.09895 H 10.976562 L 9.309895,10.442709 H 40.70313 Z"
+     id="path2"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.130208" />
+</svg>

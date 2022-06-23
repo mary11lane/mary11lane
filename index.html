@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/d720297bea.js" crossorigin="anonymous"></script>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>LaneSB portfolio</title>
+  </head>
+
+  <body>
+
+    <!-- LANDING NAVBAR -->
+    <section id="landing-section">
+        <div
+          class="navigation flex-row-center-center text-shadow-gray translucent-background"
+        >
+          <a href="#landing-section" class="nav">
+            <div class="home center"><img class="nav-icon" src="./assets/icons/nav/home.svg"></div>
+          </a>
+          <a href="#projects-section" class="nav">
+            <div class="projects center"><img class="nav-icon" src="./assets/icons/nav/projects.svg"></div>
+          </a>
+          <a href="#about-section" class="nav">
+            <div class="about center"><img class="nav-icon" src="./assets/icons/nav/about.svg"></div>
+          </a>
+          <a href="#contact-section" class="nav">
+            <div class="contact center"><img class="nav-icon" src="./assets/icons/nav/contact.svg"></div>
+          </a>
+        </div>
+
+      <!-- LANDING ANIMATED LOGO -->
+      <section class="welcome flex-column-center-center translucent-background">
+        <section class="logo-section flex-row-center-center">
+          <svg
+            id="logo"
+            width="157"
+            height="135"
+            viewBox="0 0 157 135"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.2611 30.5653C23.45 32.9012 22.6486 35.9937 23.0972 38.9152C23.5458 41.8367 25.238 44.5463 27.6664 46.2314C30.0949 47.9164 33.2254 48.5532 36.1191 47.9508C39.0128 47.3485 41.6292 45.5153 43.1835 43.0012C44.934 40.1698 45.2979 36.5907 44.4616 33.3685C43.6254 30.1464 41.6572 27.2802 39.1601 25.0788C36.1274 22.4053 32.289 20.6611 28.2824 20.1204C24.2758 19.5796 20.1167 20.2423 16.4701 21.988C12.8235 23.7337 9.70186 26.5543 7.58382 29.998C5.46579 33.4417 4.35698 37.4957 4.41255 41.5382C4.50681 48.3942 7.84968 54.8135 11.9435 60.3138C16.0374 65.8142 20.9435 70.6825 24.8953 76.2857C30.4302 84.1335 34.0011 93.4141 34.7709 102.986C35.1371 107.539 34.8682 112.184 33.5274 116.55C32.1866 120.917 29.7293 125 26.1952 127.893C22.6612 130.787 18.0114 132.411 13.4711 131.913C11.201 131.664 8.98308 130.892 7.07931 129.631C5.17553 128.37 3.59262 126.615 2.58374 124.567C1.46022 122.285 1.06473 119.655 1.4464 117.14C1.82807 114.626 2.98222 112.237 4.69913 110.361C6.41604 108.485 8.68715 107.126 11.1469 106.479C13.6066 105.833 16.246 105.898 18.6773 106.644C21.2314 107.428 23.5212 108.938 25.4749 110.76C27.4286 112.582 29.066 114.716 30.5943 116.907C33.6508 121.29 36.3999 126.048 40.6231 129.321C45.3635 132.996 51.775 134.419 57.625 133.096C63.4749 131.773 68.6497 127.729 71.3473 122.372"
+              stroke="white"
+              stroke-width="2"
+            />
+            <path
+              d="M89.2697 2.76725C84.6484 1.40609 79.5418 1.76462 75.156 3.75813C70.7703 5.75165 67.1424 9.36338 65.1293 13.7402C63.33 17.652 62.8203 22.1016 63.4027 26.3678C63.9852 30.6341 65.6305 34.7196 67.9228 38.3646C72.5072 45.6546 79.5122 51.074 86.7093 55.803C89.9957 57.9623 93.3797 60.0321 96.2192 62.7525C99.6782 66.0664 102.244 70.3117 103.531 74.9258C104.818 79.54 104.819 84.5111 103.495 89.115C102.172 93.7189 99.5239 97.9393 95.928 101.104C92.3321 104.269 87.7981 106.363 83.0517 107.01C76.5666 107.893 69.7331 105.99 64.6929 101.815C59.6526 97.6395 56.5023 91.2414 56.3509 84.6983C56.2352 79.6967 57.7919 74.7747 60.0399 70.3054C62.288 65.836 65.2175 61.7519 68.0554 57.6318C74.5338 48.226 80.6207 38.498 88.1374 29.8992C95.654 21.3004 104.797 13.7748 115.605 10.0825C120.162 8.52538 125.038 7.67095 129.815 8.28813C134.591 8.9053 139.267 11.1002 142.305 14.8374C143.996 16.9165 145.142 19.4157 145.74 22.0276C146.337 24.6395 146.395 27.3619 146.035 30.017C145.315 35.3272 142.96 40.2914 140.111 44.83C136.682 50.2913 132.391 55.3631 126.855 58.6692C124.086 60.3222 121.027 61.5127 117.842 62.0139C114.657 62.515 111.346 62.3151 108.289 61.2894C106.316 60.627 104.458 59.626 102.803 58.3633C101.694 57.5177 100.665 56.543 99.9132 55.3689C99.1612 54.1947 98.6987 52.8057 98.7795 51.4138C98.8663 49.9182 99.5841 48.4919 100.644 47.4337C101.705 46.3754 103.089 45.6725 104.542 45.3071C107.448 44.5764 110.514 45.1613 113.41 45.9273C123.76 48.6646 133.566 53.7919 141.208 61.2894C148.644 68.5842 153.967 78.2389 155.124 88.591C155.702 93.7671 155.239 99.0715 153.639 104.028C152.04 108.985 149.296 113.585 145.597 117.251C139.696 123.101 131.359 126.413 123.052 126.209C114.745 126.005 106.581 122.286 100.974 116.154"
+              stroke="white"
+              stroke-width="2"
+            />
+          </svg>
+        </section>
+
+        <!-- LANDING TEXT -->
+        <section class="welcome-message flex-column-center-center">
+          <div class="message-line-1 text-shadow-gray center">MAKING</div>
+          <div class="message-line-2 text-shadow-gray center">IDEAS</div>
+          <div class="message-line-3 text-shadow-gray center">HAPPEN</div>
+          <div class="message-line-4 text-shadow-gray center">
+            &#10022; Web App Development Services &#10022;
+          </div>
+          <div class="message-line-5">
+            by
+            <span class="logo-text">Lane SB</span>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects-section">
+      <div class="projects title text-shadow-gray">Projects</div>
+      <section class="projects-container flex-column-center-center">
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/chat-app.svg"
+              class="output-image"
+              alt="project-1"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">chat app</div>
+              <div class="output-line-2">React and Firebase</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/fullstack-social-media.svg"
+              class="output-image"
+              alt="project-2"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">social media app</div>
+              <div class="output-line-2">Mongo DB, Express, React, Node</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/ecommerce-dynamic.svg"
+              class="output-image"
+              alt="project-3"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">e-commerce app</div>
+              <div class="output-line-2">React with API</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/js-game.svg"
+              class="output-image"
+              alt="project-4"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">two-player game</div>
+              <div class="output-line-2">HTML, CSS, and JavaScript</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/weather-app.svg"
+              class="output-image"
+              alt="project-5"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">weather app</div>
+              <div class="output-line-2">React with API</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/todo-app.svg"
+              class="output-image"
+              alt="project-6"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">to-do app</div>
+              <div class="output-line-2">React</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/guess-the-number-game.svg"
+              class="output-image"
+              alt="project-6"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">one-player game</div>
+              <div class="output-line-2">HTML, CSS, and JavaScript</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/ecommerce-static.svg"
+              class="output-image"
+              alt="project-6"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">static ecommerce app</div>
+              <div class="output-line-2">HTML and CSS</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/landing-page.svg"
+              class="output-image"
+              alt="project-6"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">landing page</div>
+              <div class="output-line-2">HTML and CSS</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/tech-documentation.svg"
+              class="output-image"
+              alt="project-6"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">tech documentation</div>
+              <div class="output-line-2">HTML and CSS</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/tribute-page.svg"
+              class="output-image"
+              alt="project-6"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">tribute page</div>
+              <div class="output-line-2">HTML and CSS</div>
+            </div>
+          </a>
+        </div>
+        <div class="output">
+          <a
+            href=""
+            target="_blank"
+          >
+            <img
+              src="assets/icons/projects/web-form.svg"
+              class="output-image"
+              alt="project-6"
+            />
+            <div class="output-text flex-column-center-center">
+              <div class="output-line-1">web form</div>
+              <div class="output-line-2">HTML and CSS</div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about-section">
+      <div class="about title text-shadow-gray">About</div>
+      <img
+      class="profile-photo"
+      src="assets/images/profile-photo.png"
+      alt="profile-photo"
+    />
+      <section class="about-me-container">
+        <section class="about-me">
+         
+          <div class="self-introduction-name center">Lane SB</div>
+          <div class="self-introduction center">
+            "a Jill-of-all-trades turned web app developer"
+          </div>
+          <div class="self-introduction center">
+            Howdy! I'm Lane. Let's turn your idea into an awesome web app!
+          </div>
+        </section>
+
+        <!-- TECHNOLOGIES -->
+        <div class="skills-title flex-column-center-center">
+          &#10022; Technologies &#10022;
+        </div>
+        <section class="skills-section">
+          <div class="skills">
+            HTML
+            <img classname="skill-icon" src="./assets/icons/skills/html.svg">
+          </div>
+          <div class="skills">
+            CSS
+            <img classname="skill-icon" src="./assets/icons/skills/css.svg">
+          </div>
+          <div class="skills">
+            Javascript
+            <img classname="skill-icon" src="./assets/icons/skills/javascript.svg">
+          </div>
+          <div class="skills">
+            React
+            <img classname="skill-icon" src="./assets/icons/skills/react.svg">
+          </div>
+          <div class="skills">
+            Express
+            <img classname="skill-icon" src="./assets/icons/skills/express.svg">
+          </div>
+          <div class="skills">
+            Node.js
+            <img classname="skill-icon" src="./assets/icons/skills/nodejs.svg">
+          </div>
+          <div class="skills">
+            Mongo DB
+            <img classname="skill-icon" src="./assets/icons/skills/mongodb.svg">
+          </div>
+          <div class="skills">
+            Mongoose
+            <img classname="skill-icon" src="./assets/icons/skills/mongoose.svg">
+          </div>
+          <div class="skills">
+            JSON
+            <img classname="skill-icon" src="./assets/icons/skills/json.svg">
+          </div>
+          <div class="skills">
+            Git
+            <img classname="skill-icon" src="./assets/icons/skills/git.svg">
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-section">
+      <div class="contact title text-shadow-gray">Contact</div>
+        <section class="contact-info-icons flex-column-center-center">
+          <a
+            class="contact-info flex-column-center-center"
+            href="mailto:lanebasa22@gmail.com target="
+          >
+          <img class="contact-icon" src="./assets/icons/contact/mail.svg">
+            lanebasa22@gmail.com
+          </a>
+          <a
+            class="contact-info flex-column-center-center"
+            href="https://www.linkedin.com/in/mary-lane-basa-5b3a80225/"
+          >
+          <img class="contact-icon" src="./assets/icons/contact/linkedin.svg">
+            LinkedIn
+          </a>
+          <a
+          class="contact-info flex-column-center-center"
+          href="https://github.com/mary11lane"
+        >
+        <img class="contact-icon" src="./assets/icons/contact/github.svg">
+          GitHub
+        </a>
+        </section>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="center">
+      &copy; 2022
+      <span class="logo-text-footer">Lane SB</span>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>

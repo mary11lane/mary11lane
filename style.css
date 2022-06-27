@@ -406,6 +406,10 @@ footer {
     width: 10%;
   }
 
+  .self-introduction {
+    font-size: 1rem;
+  }
+
   /* CONTACT */
 
   .contact-info {

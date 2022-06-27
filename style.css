@@ -164,8 +164,8 @@ div:nth-child(5) {
 
 .output {
   width: 600px;
-  height: 600px;
-  margin: 20px;
+  height: 300px;
+  margin: 25px;
   border: 5px solid #fff;
   box-shadow: 2px 2px 10px rgba(64, 64, 64, 0.5);
   background-color: #fff;
@@ -316,24 +316,6 @@ footer {
     padding: 10px 20px;
   }
 
-  /* PROJECTS */
-
-  .output {
-    width: 600px;
-    height: 300px;
-    margin: 25px;
-  }
-
-  .output-image {
-    width: 100%;
-    height: 100%;
-  }
-
-  .output-text {
-    width: 100%;
-    height: 100%;
-  }
-
   /* ABOUT */
 
   .about-me {
@@ -342,12 +324,9 @@ footer {
     align-items: center;
   }
 
-  .self-introduction {
-    padding-left: 40px;
-  }
-
-  .self-introduction {
-    padding-left: 0;
+  /* CONTACT */
+  .contact-info {
+    font-size: 1.5rem;
   }
 }
 
@@ -409,36 +388,12 @@ footer {
     flex-direction: row;
   }
 
-  .output {
-    width: 600px;
-    height: 300px;
-    margin: 20px;
-  }
-
-  .output-image {
-    width: 100%;
-    height: 100%;
-  }
-
-  .output-text {
-    width: 100%;
-    height: 100%;
-  }
-
   /* ABOUT */
 
   .profile-photo {
     width: 10%;
     height: 10%;
     padding-bottom: 20px;
-  }
-
-  .self-introduction-name {
-    font-size: 1.5rem;
-  }
-
-  .self-introduction {
-    font-size: 0.9rem;
   }
 
   .skills-section {
@@ -452,15 +407,6 @@ footer {
   }
 
   /* CONTACT */
-
-  .contact-form {
-    width: 50%;
-  }
-
-  .contact-info-icons {
-    display: flex;
-    justify-content: space-evenly;
-  }
 
   .contact-info {
     font-size: 1rem;

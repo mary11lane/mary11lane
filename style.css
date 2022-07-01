@@ -136,7 +136,7 @@ div:nth-child(5) {
 }
 
 .message-line-3 {
-  font-size: 2.2rem;
+  font-size: 3rem;
 }
 
 .message-line-4 {
@@ -336,7 +336,6 @@ footer {
   /* NAV */
 
   .navigation {
-    flex-direction: row;
     justify-content: flex-end;
     background: none;
     padding: 10px;
@@ -393,12 +392,15 @@ footer {
   .profile-photo {
     width: 10%;
     height: 10%;
-    padding-bottom: 20px;
   }
 
   .skills-section {
     margin: 0 300px;
     flex-direction: row;
+  }
+
+  .skills-title {
+    font-size: 1.2rem;
   }
 
   .skills {
